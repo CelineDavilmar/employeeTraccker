@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const inquirer = require("inquirer");
+import inquirer from ("inquirer");
 require("console.table");
 //const sql = require("./sql");
 
