@@ -2,6 +2,7 @@
   "name": "employeetraccker",
   "version": "1.0.0",
   "description": "",
+  "module": "commonjs",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -13,7 +14,8 @@
   "dependencies": {
     "console.table": "^0.10.0",
     "i": "^0.3.7",
-    "inquirer": "^9.0.1",
-    "mysql": "^2.18.1"
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   }
 }

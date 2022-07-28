@@ -1,23 +1,23 @@
 USE employeesDB;
 
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES ("Product");
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES ("Engineering");
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES ("Quality Assurance");
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES ("Legal");
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Product Lead", 100000, 1);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("QA", 125000, 3);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Supervisor", 250000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
